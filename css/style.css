@@ -6,9 +6,11 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     font-family: Lobster;
-    font-size: 50pt;
+    text-align: center;
 }
-
+h1{
+    font-size: 40pt;
+}
 header{
     text-align: center;
 }
@@ -27,7 +29,14 @@ header{
 #bio{
     text-align: center;
 }
-
+#Hobbies ul li:nth-child(even){
+    color: yellow;
+    
+}
+#Hobbies ul li:nth-child(odd){
+    color: red;
+    
+}
 
 
 

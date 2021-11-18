@@ -11,10 +11,12 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 40pt;
 }
+
+/* header section*/
 header{
     text-align: center;
 }
-
+/* hero and footer section*/
 #hero,footer{
     text-align: center;
     background-color: cadetblue;
@@ -22,13 +24,16 @@ header{
     border:2px solid white;
     padding:10px;
 }
+/* hero section*/
 #hero img{
     width: 300px;
     padding: 10px;
 }
+/* bio section*/
 #bio{
     text-align: center;
 }
+/* hobbie section*/
 #Hobbies ul li:nth-child(even){
     color: yellow;
     
@@ -36,6 +41,18 @@ header{
 #Hobbies ul li:nth-child(odd){
     color: red;
     
+}
+/* gallery section*/
+#Gallery {
+    border: 2px solid white;
+}
+
+#Gallery img{
+    max-width: 100%;
+}
+
+#Gallery figure{
+    text-align: center;
 }
 
 

@@ -58,6 +58,7 @@ header{
 #lit{
     border: 2px solid white;
     margin-bottom: 2rem;
+    
 }
 
 #lit div{
@@ -78,7 +79,22 @@ header{
    text-shadow: 2px 2px 3px white;
    border-top-left-radius: .2em;
    border-bottom-right-radius: .2em;
+   
 
+}
+
+/* Video*/
+#video {
+    text-shadow: tomato;
+    font-size: 40pt;
+    box-shadow: turquoise;
+    margin-bottom: 0.50em;
+    padding:0.25em;
+    border: 4px outset white;
+    text-align: center;
+    align-content: center;
+    max-width: 100%;
+    background-color: cadetblue;
 }
 
 

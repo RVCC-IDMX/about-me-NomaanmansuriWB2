@@ -35,10 +35,16 @@ header{
 }
 /* hobbie section*/
 #Hobbies ul li:nth-child(even){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: yellow;
     
 }
 #Hobbies ul li:nth-child(odd){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: red;
     
 }
@@ -97,6 +103,45 @@ header{
     background-color: cadetblue;
 }
 
+@media screen and (min-width: 60em) {
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+    #lit div {
+        max-width: 100%;
+        columns:20rem;
+    }
+    
+}
+/* Large screen type*/
+@media screen and (min-width: 100em){
+    #Gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+    hr{
+        display: none;
+    }
+
+    #Gallery h2{
+        grid-column: 1/-1;
+
+    }
+
+    figure {
+        display: block;
+    }
+}
 
 
 

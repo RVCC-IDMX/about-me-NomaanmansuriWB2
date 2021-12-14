@@ -15,8 +15,20 @@
 
     <header>
         <!--THe header shoes logo and page title-->
-        <img src="img/logo-96X96.svg" alt="My blue top logo">
-        <h1>WEB DEV-1</h1>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo-96X96.svg" alt="My blue top logo">
+                <h1>WEB DEV-1</h1> 
+            </div>
+            <div class="navbar-link">
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
+                    <li><a href="#lit">Blog</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <!--The main envalops important page contant-->
@@ -101,7 +113,7 @@
 
         <section id="contact">
 
-            <h2>Contact Us:</h2>
+            <h2>Contact Me:</h2>
 
             <form id="contactForm" name="contactForm" data-netlify="true">
 
@@ -137,12 +149,12 @@
 
                             <!-- Reply -->
                             <fieldset>
-                                    <legend>would you like a reply?</legend>
+                                    <legend>Would you like a reply?</legend>
 
                                     <ul>
                                         <li>
                                             <input type="radio" id="message-yes" name="reply" value="Yes a reply plese ">
-                                            <label for="message-yes" > yes a reply would be nice.</label>
+                                            <label for="message-yes" > Yes a reply would be nice.</label>
                                         </li>
                                         <li>
                                             <input type="radio" id="message-no" name="reply" value="No no reply please" checked>
@@ -150,6 +162,9 @@
                                         </li>
                                     </ul>
                             </fieldset>
+
+                            <!--submit-->
+                            <button type="submit"> Send</button>
 
 
                         </div>

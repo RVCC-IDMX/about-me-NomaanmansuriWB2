@@ -143,5 +143,10 @@ header{
     }
 }
 
+/* contact form*/
+#formElements{
+    display: grid;
+}
+
 
 

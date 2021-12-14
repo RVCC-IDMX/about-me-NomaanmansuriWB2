@@ -28,6 +28,7 @@ header{
     text-align: center;
     border:2px solid white;
     padding:10px;
+    color:#333;
 }
 /* hero section*/
 #hero img{
@@ -129,7 +130,7 @@ header{
     
 }
 /* Large screen type*/
-@media screen and (min-width: 100em){
+@media screen and (min-width: 70em){
     #Gallery{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;

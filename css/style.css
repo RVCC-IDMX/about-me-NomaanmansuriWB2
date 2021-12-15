@@ -31,9 +31,11 @@ header{
     color:#333;
 }
 /* hero section*/
-#hero img{
+#hero img:hover{
+    transform: scale3d(-1);
     width: 300px;
     padding: 5px;
+    border-radius: 40%;
 }
 #hero{
     font-size: 20px;
@@ -86,7 +88,9 @@ header{
 }
 
 #Gallery img{
+    
     max-width: 100%;
+    
 }
 
 

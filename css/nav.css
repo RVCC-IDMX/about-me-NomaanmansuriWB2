@@ -58,7 +58,7 @@ main{
  and then on hover
 */
 .navbar-link a{
-    color: #333;
+    color: hsl(0, 0%, 20%);
     background-color: rgba(223, 207, 207, 0.712);
     font-size: 1.5rem;
     padding: 1rem 1.25rem;

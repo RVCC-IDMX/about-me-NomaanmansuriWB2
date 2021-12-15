@@ -10,11 +10,11 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
     font-size: 50pt;
-    color:#deb887;
+    color:#5f3c15;
 }
 h2{
     font-size: 30pt;
-    color: hsl(34, 57%, 70%);
+    color: burlywood;
 }
 
 /* header section*/
@@ -33,37 +33,64 @@ header{
 /* hero section*/
 #hero img{
     width: 300px;
-    padding: 10px;
+    padding: 5px;
+}
+#hero{
+    font-size: 20px;
 }
 /* bio section*/
 #bio{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 10px;
+    color: black;
+    border: 4px outset white;
+    background-color: cadetblue;
     text-align: center;
 }
+#bio h2{
+    color: black;
+}
 /* hobbie section*/
+#Hobbies {
+    border: 4px outset white;
+    background-color: cadetblue;
+    margin-bottom: 0.5em;
+}
+#Hobbies h2{
+    color: black;
+}
 #Hobbies ul li:nth-child(even){
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #71f5b3;
+    color: #000000;
     
 }
 #Hobbies ul li:nth-child(odd){
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(104, 193, 228);
+    color: rgb(230, 8, 8);
     
 }
 /* gallery section*/
 #Gallery {
     border: 2px solid white;
+    background-color: cadetblue;
+}
+#Gallery h2{
+    color:black;
+
 }
 
 #Gallery img{
     max-width: 100%;
 }
 
-#Gallery figure{
+
+#Gallery figure {
     text-align: center;
 }
 /* Litreture*/
@@ -74,7 +101,7 @@ header{
 }
 
 #lit div{
-    color:cadetblue;
+    color:#81D9FE;
     padding: 2rem;
     max-width: 40rem;
     margin: 0 auto;
@@ -109,7 +136,9 @@ header{
     max-width: 100%;
     background-color: cadetblue;
 }
-
+#video iframe{
+    max-width: 100%;
+}
 @media screen and (min-width: 60em) {
     figure{
         display: grid;

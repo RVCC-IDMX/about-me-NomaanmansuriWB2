@@ -41,8 +41,10 @@ in this project i have used this colors as listed bellow:-
 
 ##  Citations
 
-nothing is used from outside source till now.
-i used this website for the block:https://www.w3schools.com/css/css3_images.asp
+
+* <a href="https://www.w3schools.com/css/css3_images.asp" target="_blank"> W3 School</a>
+* <a href="https://www.youtube.com/watch?v=KF7fRl5uB-8" target="_blank"> Kitties 🐯🦁🐱🐅🐆</a>
+* <a href="https://wpdatatables.com/css-image-hover-effects/" target="_blank"> wpdatatables</a>
 
 ## Licensing 
 Copyright ©2021 - Nomaan Mansuri

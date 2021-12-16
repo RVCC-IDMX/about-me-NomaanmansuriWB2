@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 h1{
-    font-size: 50pt;
+    font-size: 100pt;
     color:#5f3c15;
 }
 h2{
@@ -95,6 +95,7 @@ header{
 
 
 #Gallery figure {
+    color: black;
     text-align: center;
 }
 /* Litreture*/
@@ -139,6 +140,7 @@ header{
     align-content: center;
     max-width: 100%;
     background-color: cadetblue;
+    color: black;
 }
 #video iframe{
     max-width: 100%;
@@ -232,6 +234,12 @@ legend{
     justify-self: center;
 }
 
+#footer{
+    padding:5px;
+    color:black;
+    font-size: medium;
+
+}
 /*---<img src="img/logo-96X96.svg" alt="My blue top logo">
         <h1>WEB DEV-1</h1>---*/
 

@@ -12,19 +12,22 @@
 The skills that i lerned from this project in different sections are listed below:
 
 ### nav bar
-In nav bar we added logo and menu for the website. From this menu you can go in diffent part of the website for example, my bio, my gallery, my form. This section was a little hard for me because the code didnt work for me as i was planning them to work. 
+In nav bar we added logo and menu for the website. From this menu you can go in diffent part of the website for example, my bio, my gallery, my form. This section was a little hard for me because the code didnt work for me as i was planning them to work. just added a new hamburfer effect for nav bar. didnt work well but did as much as i can. 
 
 ### Bio section 
-In this section i learned to add an avtar and some persnal informetion about my self. In this section i learned how to add different color and style to different lines. 
+In this section i learned to add an avtar and some persnal informetion about my self. In this section i learned how to add different color and style to different lines.
+ 
 
 ### Gallery 
 In this section i learned to how to add images to a webpage and how to lable them. most importantlt i learned how to change image apperiance in differnt screen size like mobile and larg screen size. 
 
 ### Lit 
 In these section we added a huge article into our website and leared some decoretive effects into letters. 
+* BLOG-UPDATE:
+* In this update i took of the story of dracula and addded blog of Image hovering effect. It was a reserch topic so it was eassy.
 
 ### Video 
-In these section we larened how to add a video to a website and how to lable that video. 
+In these section we larened how to add a video to a website and how to lable that video.In addition to that i learn how to maintain that video into its place. and add color to the borders.  
 
 ### Contact 
 in this section i learned how to create a form onto a website. in this section we also learned how to collect that data from netlify who has filled out the form on my website. this was really good part that i loved to play around with.  i think this was because my codes were helping me and not giving me a hard time lol 
@@ -50,5 +53,10 @@ in this project i have used this colors as listed bellow:-
 
 ## Licensing 
 Copyright ©2021 - Nomaan Mansuri
+
+
 All rights are reserved by Nomaan Mansuri nothing can be taken or used from this website. 
 All reserved copyrights
+
+
+If you have any questions please contact at this Email: @ nomaanmansuriusa@gmail.com

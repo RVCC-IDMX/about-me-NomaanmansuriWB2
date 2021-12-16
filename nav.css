@@ -1,0 +1,155 @@
+/* make scrolling smooth */
+html{
+    scroll-behavior: smooth;
+}
+
+/* 
+ get rid of padding & sizing on body so
+ header is at top
+*/
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* add some padding back to rest of page */
+main{
+    padding: 2vw;
+}
+
+/* navbar */
+.navbar{
+    background-color: cadetblue;
+    display: flex; 
+     flex-direction: column; 
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    
+}
+
+
+
+/* logo */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 6vw;
+    width: 6vw;
+}
+.logo h1{
+    font-size: 1.2em;
+}
+
+
+
+/* navigation list */
+.navbar-link li{
+    list-style: none;
+    display: block;
+    padding:0.5em;
+
+}
+
+/*  
+ style all a tags in header 
+ and then on hover
+*/
+.navbar-link a{
+    color: hsl(0, 0%, 20%);
+    background-color: rgba(223, 207, 207, 0.712);
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.navbar-link a:hover,
+.navbar-link a:focus{
+    filter: invert(1);
+    border-radius: 10px;
+
+
+}
+/* Navigetion updates starts heir part 1*/
+.nav-toggle{
+    display: none;
+}
+.navbar-link{
+    display: none;
+}
+/* Navigetion updates starts heir part 2*/
+.nav-toggle:checked ~ .navbar-link{
+    display: block;
+}
+.nav-toggle-label{
+    position: absolute;
+    right:0;
+    top:0;
+    margin-right: 1em;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+    display: block;
+    background: white;
+    height:2px;
+    width: 2em;
+    border-radius: 3px;
+    position: relative; 
+    margin-top: 0.5rem;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+    content: '';
+    position: absolute;
+}
+.nav-toggle-label span::before{
+    bottom: 7px;
+}
+.nav-toggle-label span::after{
+    top:3px;
+}
+
+
+
+
+
+
+/* 
+media query for non-mobile nav bar
+min-width set to width of nav elements 
+such that no text wraps 
+*/
+
+@media screen and(min-width: 6rem) {
+    
+    /* .navbar-link{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } */
+     .navbar {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .navbar {
+        margin-top:75px;
+        padding-bottom:50px;
+        flex-direction: column;
+    } 
+    
+    
+}

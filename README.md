@@ -1,5 +1,7 @@
 # About Me
 
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/99e3d785-60e9-40f2-9b04-234747ff64c8/deploy-status)](https://app.netlify.com/sites/about-me-nomaanmansuriwb2/deploys)
+
 # Nomaan Mansuri 
 
 ## Project goals
